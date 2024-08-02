@@ -17,7 +17,7 @@
 ### Test app
 `In your browser go to the address: 10.100.11.11`
 
-### Stop
+### Drop
 #### Normal
 `press ctrl + c` \
 `docker-compose down`
