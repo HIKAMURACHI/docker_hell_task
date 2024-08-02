@@ -37,21 +37,6 @@ services:
      second:
        ipv4_address: 10.100.12.13
 
-#DB managment
-#  adminer:
-#    image: adminer:4.8.1
-#    links: 
-#      - db:db
-#    ports:
-#      - 8082:80
-#    environment:
-#      POSTGRES_PASSWORD: password
-#    depends_on:
-#      - db
-#    networks:
-#     second:
-#       ipv4_address: 10.100.12.14
-
 networks:
   first:
     driver: bridge
